@@ -11,9 +11,9 @@ There are many ways of approaching this. Intuitively you definitely should switc
 But it's much simpler than this. If you think about it, switching doors leads to you finding the prize if *and only if* you initially chose incorrectly. The probability of switching leading to a win is thus equal to the probability that you initially chose incorrectly. This is much simpler to work out: as 2 of the 3 doors have booby prizes behind them, the probability that you initially chose wrong is 2/3.
 
 But what if there are not 3 doors but 4 and Monty only opens 1 of them? Now the argument of the last paragraph breaks down - the words "and only if" are now wrong. Instead we must use something that, again, is much simpler than Bayes' Theorem but is still important and useful: the Theorem of Total Probability. It works like this. Let $S$ be the event that switching leads to a win, $C$ the event that you initially chose correctly and $I$ the event that you initially chose incorrectly. Write $P(A)$ for the probability of event $A$ and $P(A|B)$ for the probability of event $A$ given $B$. The Theorem of Total Probability tells us that
-\[
+$$
 P(S) = P(S|C)P(C) + P(S|I)P(I).
-\]
+$$
 In our problem this quickly simplifies: $P(S|C)=0$ since initially choosing correctly and then switching away from that door is guaranteed to give us the booby prize. Hence 
 \[
 P(S) = P(S|I)P(I).
