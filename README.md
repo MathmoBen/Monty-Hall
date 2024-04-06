@@ -17,6 +17,6 @@ If there are 4 doors, then since there is only one prize we must have that P(I) 
 
 But the real beauty of this elegant argument is how easily it generalises - if there are $n$ doors, then we still have that $P(S|C)=0$ but now  $P(I) = (n-1)/n$ and $P(S|I) = 1/(n-2)$ so $P(S) = (n-1)/n(n-2)$ and as $n$ grows larger switching doors looks like an increasingly unappealing option.
 
-Clearly this gets more involved if there are $k>1$ prizes and Monty opens $r<n-k-1$ doors, but that's a story for another time. 
+Clearly this gets more involved if there are $k>1$ prizes and Monty opens $r$ doors where $n-k-1>r$ doors, but that's a story for another time. 
 
 In this repository we record some computations relating to this.
