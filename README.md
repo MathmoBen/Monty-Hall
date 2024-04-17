@@ -20,3 +20,5 @@ But the real beauty of this elegant argument is how easily it generalises - if t
 Clearly this gets more involved if there are $k>1$ prizes and Monty opens $r$ doors where $n-k-1>r$ doors, but that's a story for another time. 
 
 In this repository we record some computations relating to this.
+
+![This is a visualisation of what happens when there are 100 doors](https://github.com/MathmoBen/Monty-Hall/blob/main/Monty.png)
